@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_weekly/src/drawer/drawer.dart';
 import '../settings/settings_view.dart';
 
 class HomePage extends StatelessWidget {
@@ -25,7 +26,7 @@ class HomePage extends StatelessWidget {
             ),
           ],
         ),
-        drawer: Drawer(),
+        drawer: const AppDrawer(),
         body: Center(
           child: Text("Flutter Widget of the week"),
         ));
